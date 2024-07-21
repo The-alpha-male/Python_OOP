@@ -9,8 +9,6 @@ class Item:
 
     def calculate_total_price(self):
         return self.price * self.quantity
-
-
 # Instance of class Item
 item1 = Item("Phone", 1000, 1)
 item2 = Item("Laptop", 10000, 3)
