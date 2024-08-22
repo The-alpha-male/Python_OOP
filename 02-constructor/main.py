@@ -1,6 +1,6 @@
 class Item:
     """
-    Item class to represent an item with a name, price, and quantity.
+    Item class to represent an item with a name, price and quantity.
     """
     def __init__(self, name: str, price: float, quantity=0):
         # Run validations to the received arguments
