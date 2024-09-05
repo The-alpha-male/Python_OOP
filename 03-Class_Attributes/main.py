@@ -3,9 +3,8 @@ class Item:
     all = []
     def __init__(self, name: str, price: float, quantity=0):
         # Run validations to the received arguments
-       iiii
-        assert price >= 0, f"Price {price} is not greater than or equal to zero!"
-        assert quantity >= 0, f"Quantity {quantity} is not greater or equal to zero!"
+        assert price >= 0, f"Price {price} is not greater than or equal to zero"
+        assert quantity >= 0, f"Quantity {quantity} is not greater or equal to zero"
 
         # Assign to self object
         self.name = name
